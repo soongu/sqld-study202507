@@ -1,0 +1,27 @@
+
+-- 문제 1
+SELECT *
+FROM HASHTAGS
+;
+
+-- 문제 2
+SELECT CONTENT, CREATION_DATE
+FROM POSTS
+;
+
+-- 문제 3
+SELECT DISTINCT USER_ID
+FROM LIKES
+;
+
+-- 문제 4
+SELECT 
+  FULL_NAME AS "전체 이름"
+  , BIO 자기소개
+FROM USER_PROFILES
+;
+
+-- 문제 5
+SELECT '[' || USER_ID || ']님이 [' || COMMENT_TEXT || '] 라고 댓글을 남겼습니다.' AS "댓글 알림"
+FROM COMMENTS
+;
