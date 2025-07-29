@@ -26,3 +26,4 @@ MINUS
 -- '댓글'을 작성한 사용자의 ID 목록
 SELECT user_id FROM COMMENTS
 ;
+
